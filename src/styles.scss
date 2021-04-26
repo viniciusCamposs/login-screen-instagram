@@ -1,1 +1,39 @@
 /* You can add global styles to this file, and also import other style files */
+@import './css/reset.css';
+@import "~bootstrap/dist/css/bootstrap.min.css";
+
+:root {
+  --cinza-claro: #FAFAFA;
+  font-size: 10px;
+}
+
+body {
+  background-color: rgb(24, 20, 20)
+}
+
+section {
+  width: 100vw;
+  height: 100vh;
+}
+
+main {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: chocolate;
+  height: 90%;
+}
+
+footer {
+  position: absolute;
+  bottom: 0;
+  height: 10%;
+  width: 100%;
+  background-color: royalblue;
+}
+
+.container-central {
+  background-color: rgb(78, 98, 158);
+  width: 90rem;
+  height: 90%;
+}
